@@ -40,7 +40,7 @@ const FluidSimulation = () => {
         supportLinearFiltering = gl.getExtension('OES_texture_half_float_linear');
       }
     
-      gl.clearColor(0.0, 0.0, 0.0, 2.0);
+      gl.clearColor(0.0, 0.01, 0.2, 2.0);
     
       const halfFloatTexType = isWebGL2 ? gl.HALF_FLOAT : halfFloat.HALF_FLOAT_OES;
       let formatRGBA;
