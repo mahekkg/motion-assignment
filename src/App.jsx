@@ -1,5 +1,6 @@
 import FluidSimulation from "./components/FluidSimulation";
 import Home from "./components/Home";
+import MagicWandSection from "./components/MagicWandSection";
 import Navbar from "./components/Navbar";
 import Review from "./components/Review";
 
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Home />
         <Review />
+        <MagicWandSection/>
       </div>
     </div>
   );
