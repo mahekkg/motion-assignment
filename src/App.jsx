@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import MagicWandSection from "./components/MagicWandSection";
 import Navbar from "./components/Navbar";
 import Review from "./components/Review";
+import UsageSection from "./components/Usage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Home />
         <Review />
         <MagicWandSection/>
+        <UsageSection/>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ const MagicWandSection = () => {
         </a>
       </div>
       <div className="mt-8 lg:mt-0 lg:w-1/6 flex justify-center lg:justify-end">
-        <img src={magicwand} alt="Magic Wand" className="w-full lg:w-auto" />
+        <img src={magicwand} alt="Magic Wand" className="w-30 h-30 lg:w-auto" />
       </div>
     </section>
   );
