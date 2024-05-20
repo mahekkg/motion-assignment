@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="mx-auto max-w-[40rem] md:w-full h-auto mt-5 px-4 md:px-0 bg-transparent  mt-10">
+    <div className="mx-auto max-w-[40rem] md:w-full h-auto px-4 md:px-0 bg-transparent  mt-10">
       <h2 className="text-white text-4xl md:text-7xl lg:text-left text-center">
         Attract Your Visitors Attention With Colorful
       </h2>
