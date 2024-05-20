@@ -1,3 +1,4 @@
+import BrowserComponent from "./components/BrowserComponent";
 import FluidSimulation from "./components/FluidSimulation";
 import Home from "./components/Home";
 import MagicWandSection from "./components/MagicWandSection";
@@ -18,8 +19,9 @@ function App() {
         <Navbar />
         <Home />
         <Review />
-        <MagicWandSection/>
-        <UsageSection/>
+        <MagicWandSection />
+        <UsageSection />
+        <BrowserComponent />
       </div>
     </div>
   );
