@@ -1,5 +1,7 @@
 import BrowserComponent from "./components/BrowserComponent";
+import Features from "./components/Features";
 import FluidSimulation from "./components/FluidSimulation";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import MagicWandSection from "./components/MagicWandSection";
 import Navbar from "./components/Navbar";
@@ -8,7 +10,7 @@ import UsageSection from "./components/Usage";
 
 function App() {
   return (
-    <div className=" h-vh bg-gray-400 overflow-auto">
+    <div className=" h-vh bg-gray-400 ">
       {/* FluidSimulation as background */}
       <div className="absolute inset-0">
         <FluidSimulation />
@@ -22,6 +24,8 @@ function App() {
         <MagicWandSection />
         <UsageSection />
         <BrowserComponent />
+        <Features />
+        <Footer/>
       </div>
     </div>
   );

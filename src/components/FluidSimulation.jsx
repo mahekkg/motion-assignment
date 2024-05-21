@@ -880,7 +880,7 @@ const FluidSimulation = () => {
 
   return (
     // <div className="w-full h-screen overflow-hidden">
-    <div className="w-[100%] h-[350%] overflow-auto">
+    <div className="w-[100%] h-[410%] ">
       <canvas ref={canvasRef} className="w-full h-full"></canvas>
     </div>
     // </div>
